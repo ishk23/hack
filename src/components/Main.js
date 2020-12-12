@@ -28,7 +28,7 @@ class Main extends Component {
                     placeholder="Image description..."
                     required />
                 </div>
-                <button type="submit" class="btn btn-primary btn-block btn-lg">Upload!</button>
+                <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
               </form>
 
               <p>&nbsp;</p>
