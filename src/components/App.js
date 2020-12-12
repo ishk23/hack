@@ -121,8 +121,10 @@ class App extends Component {
         { this.state.loading
           ? <div id="loader" className="text-center mt-5"><p>Loading...</p></div>
           : <Main
+            images={this.state.images}
             captureFile={this.captureFile}
             uploadImage={this.uploadImage}
+            tipImageOwner={this.tipImageOwner}
           />
         }
 
