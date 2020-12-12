@@ -1,5 +1,5 @@
-const Decentragram = artifacts.require("Decentragram");
+const Artistry = artifacts.require("Artistry");
 
-module.exports = function(deployer) {
-  // Code goes here...
+module.exports = function (deployer) {
+  deployer.deploy(Artistry);
 };
